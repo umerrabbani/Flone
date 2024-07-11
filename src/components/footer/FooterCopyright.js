@@ -6,18 +6,16 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
   return (
     <div className={clsx("copyright", spaceBottomClass, colorClass)}>
       <div className="footer-logo">
-        <Link to={process.env.PUBLIC_URL + "/"}>
-          <img alt="" src={process.env.PUBLIC_URL + footerLogo} />
-        </Link>
+       
       </div>
       <p>
         &copy; {new Date().getFullYear()}{" "}
         <a
-          href="https://hasthemes.com"
+          href="https://fissionfox.com"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Flone
+          FissionFox
         </a>
         .<br /> All Rights Reserved
       </p>
